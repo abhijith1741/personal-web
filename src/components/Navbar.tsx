@@ -44,7 +44,9 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 w-full z-50 glass">
+      <header className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${
+        isOpen ? "bg-zinc-950 border-b border-zinc-900" : "glass"
+      }`}>
         {/* Scroll Progress Bar */}
         <motion.div
           className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-cyan-500 via-indigo-500 to-purple-500 origin-left"
@@ -113,7 +115,7 @@ export default function Navbar() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="md:hidden absolute top-16 left-0 w-full glass border-t border-zinc-900 px-6 py-6 flex flex-col gap-4 shadow-xl"
+            className="md:hidden absolute top-16 left-0 w-full bg-zinc-950 border-t border-zinc-900 px-6 py-6 flex flex-col gap-4 shadow-xl"
           >
             {navLinks.map((link) => {
               const isActive = activeSection === link.href.substring(1);

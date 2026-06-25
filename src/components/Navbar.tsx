@@ -69,9 +69,8 @@ export default function Navbar() {
                 <a
                   key={link.name}
                   href={link.href}
-                  className={`text-sm font-medium transition-colors hover:text-cyan-400 ${
-                    isActive ? "text-cyan-400" : "text-zinc-400"
-                  }`}
+                  className={`text-sm font-medium transition-colors hover:text-cyan-400 ${isActive ? "text-cyan-400" : "text-zinc-400"
+                    }`}
                 >
                   {link.name}
                 </a>
@@ -82,8 +81,9 @@ export default function Navbar() {
           {/* Actions Stack */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="/Abhijith_Lenin_Resume.pdf"
-              download
+              href="https://drive.google.com/drive/u/1/folders/1uMk8zbIBaAh1cDnhUPCIIkqi22tPgSTP"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-1 text-xs font-semibold px-4 py-2 rounded-full bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-all text-zinc-300 hover:text-white"
             >
               Resume
@@ -122,9 +122,8 @@ export default function Navbar() {
                   key={link.name}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className={`text-base font-semibold py-2 border-b border-zinc-900/50 transition-colors ${
-                    isActive ? "text-cyan-400" : "text-zinc-400 hover:text-zinc-100"
-                  }`}
+                  className={`text-base font-semibold py-2 border-b border-zinc-900/50 transition-colors ${isActive ? "text-cyan-400" : "text-zinc-400 hover:text-zinc-100"
+                    }`}
                 >
                   {link.name}
                 </a>
@@ -132,8 +131,9 @@ export default function Navbar() {
             })}
             <div className="mt-2 flex flex-col gap-2">
               <a
-                href="/Abhijith_Lenin_Resume.pdf"
-                download
+                href="https://drive.google.com/file/d/1MiDPJoeCfnMwf_uzNOk0BVv_Owp2-ax8/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
                 className="w-full text-center py-2.5 rounded-lg bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-zinc-300 font-semibold text-sm transition-all"
               >

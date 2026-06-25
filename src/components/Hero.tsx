@@ -94,8 +94,9 @@ export default function Hero() {
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
-              href="/Abhijith_Lenin_Resume.pdf"
-              download
+              href="https://drive.google.com/file/d/1MiDPJoeCfnMwf_uzNOk0BVv_Owp2-ax8/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl glass hover:bg-zinc-900 transition-all font-semibold text-indigo-400 hover:text-indigo-300"
             >
               <FileDown className="w-4 h-4" />

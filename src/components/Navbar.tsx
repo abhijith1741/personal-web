@@ -83,7 +83,7 @@ export default function Navbar() {
           {/* Actions Stack */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="https://drive.google.com/drive/u/1/folders/1uMk8zbIBaAh1cDnhUPCIIkqi22tPgSTP"
+              href="https://drive.google.com/file/d/1MiDPJoeCfnMwf_uzNOk0BVv_Owp2-ax8/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 text-xs font-semibold px-4 py-2 rounded-full bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-all text-zinc-300 hover:text-white"
